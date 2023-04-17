@@ -14,4 +14,12 @@ class HelloApplicationTest
         assertEquals(15, result);
     }
 
+    @Test
+    public void test2()
+    {
+        HelloApplication helloApplication = new HelloApplication();
+        int result = helloApplication.addNumbers(7, -2);
+        assertEquals(5, result);
+    }
+
 }
